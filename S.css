@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #fff;
+  }
+  
+  #app {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #1DB954;
+  }
+  
+  header input {
+    padding: 5px;
+    font-size: 16px;
+  }
+  
+  #content {
+    display: flex;
+    flex: 1;
+  }
+  
+  #sidebar {
+    width: 200px;
+    background-color: #181818;
+    padding: 20px;
+  }
+  
+  #sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #sidebar li {
+    margin-bottom: 20px;
+    cursor: pointer;
+  }
+  
+  #main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #player {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #282828;
+    padding: 10px;
+  }
+  
+  #player button {
+    margin: 0 10px;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #1DB954;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #player input[type="range"] {
+    margin: 0 10px;
+    width: 150px;
+  }
+  
+  #playlist {
+    flex: 1;
+    overflow-y: auto;
+    padding: 20px;
+  }
+  
+  .song {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #333;
+    cursor: pointer;
+  }
+  
+  .song:hover {
+    background-color: #333;
+  }
+  
